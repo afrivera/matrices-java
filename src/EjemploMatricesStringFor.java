@@ -14,8 +14,16 @@ public class EjemploMatricesStringFor {
             for (int j = 0; j < nombres[i].length; j++) {
                 System.out.println("Nombre = " + nombres[i][j]);
             }
+            System.out.println();
         }
 
+//        ForEach
+        for(String[] fila: nombres){
+            for(String nombre: fila){
+                System.out.println("nombre = " + nombre);
+            }
+            System.out.println();
+        }
 
 
     }
